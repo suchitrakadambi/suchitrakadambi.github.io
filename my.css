@@ -1,0 +1,104 @@
+.bgimg{
+  background-image: url(home-office-336373_640.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  opacity: 0.85;
+  /*border : 1px solid black;*/
+}
+.extend{
+  height: 900px;
+
+}
+.letter{
+  color:white;
+}
+.textpos{
+  color:orangered;
+  /*padding: 250px;*/
+  font-style:italic;
+  font-family: monospace;
+}
+.spaclass{
+  color:white;
+  margin-top:250px;
+}
+.horline{
+  width:150px;
+  height: 3px;
+  background-color: orangered;
+}
+.imgsize{
+  width:200px;
+ border-radius: 100px;
+
+}
+.imgpos{
+  padding:30px;
+}
+.parastyle{
+  color:black;
+  font-size: 20px;
+  font-family: Sans-Serif;
+  font-weight: 400;
+}
+.img-arrg{
+  padding:20px;
+}
+figure{
+  display: inline-block;
+}
+.imgsz1{
+  width:180px;
+  height: 160px;
+  /*border: 1px solid black;*/
+}
+.imgsz2{
+  width:180px;
+  height: 170px;
+  /*border: 1px solid black;*/
+}
+.imgsz3{
+  width:300px;
+  height: 160px;
+  /*border: 1px solid black;*/
+}
+.imgsz4{
+  width:200px;
+  height: 200px;
+  /*border: 1px solid black;*/
+}
+.imgsz5{
+  width:320px;
+  height: 290px;
+  /*border: 1px solid black;*/
+}
+.mywork{
+  height: 1000px;
+}
+.footer{
+  height:300px;
+  border-top: 3px solid orangered;
+  background-color:rgb(44,63,82);
+  color: white;
+}
+.contacthead{
+margin-top: 40px;
+}
+.mysetting{
+  color:white;
+  font-size: 50px;
+  padding:10px;
+}
+.project{
+  width:600px;
+  height: 400px;
+  margin-top: 50px;
+}
+.parasetting{
+  margin-top: 80px;
+  font-family: monospace;
+  margin-left: 20px;
+}
+.input{
+
+}
