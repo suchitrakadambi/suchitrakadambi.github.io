@@ -78,9 +78,10 @@ figure{
 .monty{
   width :500px;
   height: 300px;
-  margin: 20px;
-  right: 0px;
-  border: 1px dotted black;
+  /*margin: 20px;*/
+  top:0;
+  /*right: 0px;*/
+  border: 1px solid black;
 }
 .footer{
   height:300px;
@@ -129,3 +130,10 @@ margin-top: 40px;
 /*.montyhall-container{*/
   /*width: 100vw;*/
 /*}*/
+.imagecontainer{
+  border : 1px solid pink;
+  margin: 20px;
+  /*width: inherit;*/
+  /*height: inherit;*/
+  background-color: aqua;
+}
