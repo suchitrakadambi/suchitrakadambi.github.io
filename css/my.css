@@ -79,6 +79,8 @@ figure{
   width :500px;
   height: 300px;
   margin: 20px;
+  right: 0px;
+  border: 1px dotted black;
 }
 .footer{
   height:300px;
@@ -107,3 +109,23 @@ margin-top: 40px;
 .input{
 
 }
+.montypara{
+  font-family: SansSerif;
+  font-size: 20px;
+  /*display: inline;*/
+  /*border: 1px solid black;*/
+  text-align: center;
+  box-sizing: border-box;
+  padding: 50px;
+}
+.paradiv{
+  width: 500px;
+  height: 200px;
+  /*border: 1px solid green;*/
+  float: left;
+  margin: 20px;
+  overflow: scroll;
+}
+/*.montyhall-container{*/
+  /*width: 100vw;*/
+/*}*/
