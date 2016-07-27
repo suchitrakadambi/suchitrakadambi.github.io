@@ -1,0 +1,29 @@
+.body{
+  background-color: #333;
+}
+.heading{
+  text-align: center;
+  color:white;
+  font-size: 60px;
+}
+.para{
+  text-align: center;
+  color:white;
+  font-size: 30px;
+}
+.doors{
+  position:relative;
+  display: block;
+  margin-right: auto;
+  padding-left: 25%;
+}
+.image{
+  padding :5%;
+}
+#changeele
+{
+  width:20%;
+  height: 250px;
+  border: none;
+  padding-bottom: 5%;
+}
