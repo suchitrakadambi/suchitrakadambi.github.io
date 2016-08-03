@@ -1,0 +1,120 @@
+.maincontainer{
+    /*border : 1px solid black;*/
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    margin: 5%;
+    margin-left: 20%;
+
+}
+.searotate{
+    /*transform: rotate(90deg);*/
+    animation-name : rotate;
+    animation-duration: 0.1s;
+    animation-iteration-count: 10;
+
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.seashake{
+    /*transform: rotate(90deg);*/
+    animation-name : shake;
+    animation-duration: 0.2s;
+    animation-iteration-count: 10;
+
+}
+div{
+    float: left;
+    margin: 35px;
+}
+
+@keyframes shake {
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    75%{
+        transform: translateX(20px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+.seashakeV{
+    /*transform: rotate(90deg);*/
+    animation-name : shakeV;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes shakeV {
+
+    0%{
+        transform: translate(0px, 0px);
+    }
+    25%{
+        transform: translate(50px,-50px) scale(1.5,1.5);
+    }
+    50%{
+        transform: translate(0px, 0px);
+    }
+    75%{
+        transform: translate(-50px,-50px) scale(1.5,1.5);
+    }
+    100%{
+        transform: translate(0px ,0px);
+    }
+}
+
+.seasemi{
+    /*transform: rotate(90deg);*/
+    animation: semi 2s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes semi {
+
+    0%{
+        transform: scale(1,1)
+    }
+    20%{
+        transform: scale(2.5,2.5);
+    }
+    40%{
+        transform : translate(0px,0px);
+    }
+    60%{
+        transform : scale(1.5,1.5) translateY(-10%) ;
+    }
+    80%{
+        transform : scale(1,1) translateY(-5%) ;
+    }
+    100%{
+        transform: scale(1,1) translate(0px,0px);
+    }
+    /*50%{*/
+    /*transform: translate(0px, 0px);*/
+    /*}*/
+    /*75%{*/
+    /*transform: translateX(50px) skew(10deg,-10deg);*/
+    /*}*/
+    /*100%{*/
+    /*transform: translate(0px ,0px);*/
+    /*}*/
+}
