@@ -1,7 +1,7 @@
 .bgimg{
   background-image: url(../images/home-office-336373_640.jpg);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:100%;
   opacity: 0.85;
   /*border : 1px solid black;*/
 }
@@ -81,7 +81,7 @@ figure{
   /*margin: 20px;*/
   top:0;
   /*right: 0px;*/
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 .footer{
   height:300px;
@@ -131,9 +131,37 @@ margin-top: 40px;
   /*width: 100vw;*/
 /*}*/
 .imagecontainer{
-  border : 1px solid pink;
+  /*border : 1px solid red;*/
   margin: 20px;
   /*width: inherit;*/
   /*height: inherit;*/
   background-color: aqua;
+}
+.informationcontainer .hidetext{
+  /*position: absolute;*/
+  opacity: 0;
+  display: block;
+}
+.informationcontainer a:hover+.hidetext{
+  opacity: 1;
+  /*background-color: darkorange;*/
+  display: block;
+  position: absolute;
+  color: black;
+  text-align: center;
+  /*border:  1px solid black;*/
+  width: 500px;
+  padding: 15px;
+  font-family: Sans-Serif;
+  font-size: 25px;
+}
+.informationcontainer  img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.informationcontainer a:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }

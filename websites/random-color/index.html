@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type ="css/text" href="randomcolor.css">
+</head>
+<body>
+<div class ="main">
+    <button class ="butto"  type ="button" onclick="changeColor()"> CLICK ME</button>
+</div>
+<script>
+    function generateColor(){
+        var x = Math.random().toString(16).slice(2,8);
+        var y = "#" + x;
+        return y;
+    }
+
+    function changeColor(){
+        var element = document.getElementById("body");
+        color = generateColor();
+        element.style.backgroundColor =color;
+    }
+
+</script>
+</body>
+</html>
