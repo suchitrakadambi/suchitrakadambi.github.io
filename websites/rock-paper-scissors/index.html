@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="rps.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+<div class = "maincontainer">
+    <div class = "heading">
+        <h1 class = "computer-heading">Computer</h1>
+        <h1 class = "you-heading">You</h1>
+    </div>
+    <div class = "image-movement">
+        <div id = "left-image" class = "imgcontainer" >
+            <img src = "left_fist.png" class = "img-clas-left" id = "left-fist">
+            <img src = "paper.png" class = " hide img-clas-left hide " id = "paperimg">
+            <img src="rock.png" class = "img-clas-left hide" id = "rockimg" >
+            <img src="scissors.png" class = "img-clas-left hide" id = "scissorsimg">
+        </div>
+        <div class = "center-content">
+            <h2 class = "content" id = "start-content">
+                Choose your weapon
+            </h2>
+        </div>
+        <div id = "right-image" class = "imgcontainer">
+            <img src = "right_fist.png" class = "img-clas-right" id = "right-fist">
+            <img src = "paper.png" class = "img-clas-left hide" id = "rightpaperimg" >
+            <img src="rock.png" class = "img-clas-left hide" id = "rightrockimg">
+            <img src="scissors.png" class = "img-clas-left hide" id = "rightscissorsimg" >
+        </div>
+    </div>
+
+</div>
+<div class = "button-container">
+    <button class = "button" id = "rock">Rock</button>
+    <button class = "button" id = "paper">Paper</button>
+    <button class = "button" id = "scissors">Scissors</button>
+</div>
+<script src = "rps.js"></script>
+</body>
+</html>
