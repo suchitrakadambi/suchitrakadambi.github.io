@@ -1,0 +1,19 @@
+.greybackground{
+    background-color: gray;
+    width : 900px;
+    height: 900px;
+    border: 1px solid black;
+    position: relative;
+    left :20%;
+    top:-10px;
+
+}
+.rect {
+    border : none;
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    /*display :  inline;*/
+    float: left;
+
+}
