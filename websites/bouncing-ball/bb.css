@@ -1,0 +1,125 @@
+.container{
+    width :1000px;
+    height: 700px;
+    position:absolute;
+    /*border: 1px solid black;*/
+    left:30%;
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    position: absolute;
+    border-radius : 50px;
+    left : 200px;
+    /* Chrome, Safari, Opera */
+    /*-webkit-animation-name: example;*/
+    /*-webkit-animation-duration: 10s;*/
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name: bounce ;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 5.5s;
+
+    /* Standard syntax */
+    /*animation-name: example;*/
+    /*animation-duration: 10s;*/
+    animation-timing-function: linear;
+    /*animation-direction: alternate;*/
+    animation-name: bounce ;
+    animation-iteration-count: infinite;
+    animation-duration: 5.5s;
+}
+/*@-webkit-keyframes example {*/
+/*0%  {background-color:red; left:10px; top:0px; }*/
+/*100% {background-color:red; left:0px; bottom:700px; }*/
+/*}*/
+
+/*!* Standard syntax *!*/
+/*@keyframes example {*/
+/*0% {background-color:red; left:10px; top:0px;}*/
+/*100%{background-color:red; left:0px; bottom:700px;}*/
+/*}*/
+@-webkit-keyframes bounce {
+    0% {
+        -webkit-transform:translateY(0px);
+    }
+    /*20% {*/
+    /*-webkit-transform:translateY(50px);*/
+    /*}*/
+    /*30% {*/
+    /*-webkit-transform:translateY(100px);*/
+    /*}*/
+    40% {
+        -webkit-transform:translateY(500px);
+    }
+    /*50% {*/
+    /*-webkit-transform:translateY(300px);*/
+    /*}*/
+    /*98% {*/
+    /*-webkit-transform:scale(1.2,1);*/
+    /*}*/
+    /*40%{*/
+
+    /*-webkit-transform:translateY(500px);*/
+    /*}*/
+
+    50% {
+        -webkit-transform:translateY(400px) scale(1.2,1);
+
+    }
+    /*70%{*/
+    /*-webkit-transform:translateY(300px);*/
+    /*}*/
+
+    100%{
+        -webkit-transform:translateY(10px);
+    }
+
+}
+#text{
+    margin: 250px;
+    width :500px;
+    height: 200px;
+    position: absolute;
+    /*border: 1px solid black;*/
+    font-size: 50px;
+    font-family: SansSerif;
+    color:darkblue;
+    text-align: center;
+    font-style: oblique;
+
+}
+.hide{
+    display: none;
+}
+.startclass{
+    background-color:cornflowerblue;
+    width: 100px;
+    height: 50px;
+    font-family: SansSerif;
+    font-size: 20px;
+    position: relative;
+    top:600px;
+    right: 0px;
+    color: white;
+
+
+}
+.hor{
+    width: inherit;
+    height: 50px;
+    background-color:cornflowerblue;
+    position: relative;
+    top:600px;
+
+}
+.exp{
+    /*border:  1px solid black;*/
+    position: absolute;
+    margin-right: 50px;
+    width: inherit;
+    text-align:center;
+    color:blue ;
+    font-family: SansSerif;
+    font-style: oblique;
+}
