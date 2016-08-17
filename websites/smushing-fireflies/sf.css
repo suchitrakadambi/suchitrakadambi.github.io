@@ -1,0 +1,9 @@
+.myclass{
+    width:10px;
+    height: 10px;
+    /*background-color: chartreuse;*/
+    /*border: 1px solid black;*/
+    position: absolute;
+    opacity: 0.3;
+    animation-name: blow;
+}

@@ -83,6 +83,13 @@ figure{
   /*right: 0px;*/
   /*border: 1px solid black;*/
 }
+.img-thumbnail{
+   /*background-color: rgba(44,63,82,0.1);*/
+  width : 250px;
+  height: 200px;
+  /*border: dotted;*/
+
+ }
 .footer{
   height:300px;
   border-top: 3px solid orangered;
@@ -148,7 +155,7 @@ float: left;
   /*background-color: darkorange;*/
   display: block;
   position: absolute;
-  color: black;
+  color: rgb(44,63,82);
   text-align: center;
   /*border:  1px solid black;*/
   width: 300px;
