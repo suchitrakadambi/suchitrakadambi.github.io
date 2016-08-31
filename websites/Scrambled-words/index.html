@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type ="text/css" href="sw.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</head>
+<body style = "background-color:yellowgreen" >
+<nav class="navbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand textcolor" href="#">Scrambled Words</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right textcolor">
+            <li class="active textcolor"><a href="#">Home</a></li>
+        </ul>
+    </div>
+</nav>
+<div id ="explanation">
+    <h2  class ="heading" > You have 3 chances to unscramble the words <br>
+        if the Succeed , you get a point <br>
+        if you fail,you lose a point<br>
+    </h2>
+    <button id ="letsplay" class ="btn btn-danger btn-lg center-block" >Let's Play</button>
+
+</div>
+<!--<div id = "score" class = "hide myscore">-->
+<!--Life  : <span id = "number">3</span>-->
+<!--</div>-->
+<div id = "externalcontent" class = "hide" style = "width: 400px ;padding:20px; margin: auto;background-color: red ;color:white"> <!-- class = "hide" -->
+
+</div>
+
+
+<div  id ="formdiv" class = "hide"  style="width: 450px ;padding:20px; margin: auto">
+    <form  role = "form">
+        <div class = "form-group">
+            <input type = "text"  id = "inputdata" placeholder = "Enter your guess" class = "form-control">
+        </div>
+        <button id = "wordsubmit" type = "submit" class = "btn btn-danger btn-lg center-block" >Submit</button>
+    </form>
+
+</div>
+<script src = "sw.js"></script>
+</body>
+</html>

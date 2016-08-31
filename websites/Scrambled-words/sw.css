@@ -1,0 +1,49 @@
+.heading{
+    font-family: SansSerif;
+    text-align: center;
+    padding: 50px;
+    color: black;
+}
+#explanation{
+    margin: auto;
+    /*border: 1px solid black;*/
+    width: 700px;
+}
+.inputarea{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.divformarea{
+    background-color:brown;
+}
+.formarea{
+    margin: auto;
+}
+.externalcontent{
+
+}
+input.full-width{
+    width: 500px;
+}
+.navbar{
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+}
+.textcolor {
+    color: white;
+}
+li a {
+    color: white;
+}
+text{
+    font-family: SansSerif;
+    text-align: center;
+    padding: 50px;
+    color: black;
+    font-size: 30px;
+}
+.myscore{
+    color: white;
+    font-size: 30px;
+}
