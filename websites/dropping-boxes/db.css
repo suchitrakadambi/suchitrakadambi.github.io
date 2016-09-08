@@ -6,11 +6,6 @@ h1{
     height: 100vh;
     /*background-color: aqua;*/
 }
-.center{
-    margin: auto;
-    margin-top: 500px;
-    color: gainsboro;
-}
 div{
     position: relative;
     /*-webkit-animation-name:'';*/
