@@ -26,26 +26,27 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" class="letter">Home</a></li>
-        <li><a href="#abt" class="letter">About</a></li>
-        <li><a href="#skillst" class="letter">Skill set</a></li>
-        <li><a href="#mywrk" class="letter">Works</a></li>
-        <li><a href="#contact" class="letter">Contact Me</a></li>
+        <li><a href="#" class="letter home active" id = "hme">Home</a></li>
+        <li><a href="#about" class="letter about active" id = "abt">About</a></li>
+        <li><a href="#skillst" class="letter skillset active" id = "skil">Skill set</a></li>
+        <li><a href="#mywrk" class="letter mywork active" id = "work">Works</a></li>
+        <li><a href="#contact" class="letter contact active" id = "contactme">Contact Me</a></li>
       </ul>
     </div>
   </div>
 </nav>
   <div class = "textpos">
-    <h1 class = "text-center spaclass ">DREAM IT <span style="color:orangered">WISH IT</span></h1>
+    <h1 class = "text-center spaclass ">DREAM IT <span class = "ornge">WISH IT</span></h1>
     <!--<h1 class = "text-center ">WISH<span class = "spaclass"> IT</span></h1>-->
-    <h1 class = "text-center ">DO<span class = "spaclass"> IT</span></h1>
+    <h1 class = "text-center ornge ">DO<span class = "spaclass"> IT</span></h1>
+    <h4 class = "text-center myname">SUCHITRA KADAMBI,FRONT-END DEVELOPER</h4>
   </div>
   <div class = "arrow">
     <span class = "arrowmove"><a href = "#"><span class = "glyphicon glyphicon-menu-down"></span></a></span>
   </div>
 </div>
 <div class="container-fluid">
-<div class = "About" id = "abt">
+<div class = "About" id = "about">
 
   <h1 class = "text-center"> I Love Building Things</h1>
   <div class ="horline center-block"></div>
@@ -54,8 +55,9 @@
   </div>
   <div class = "aboutcontent center-block text-center">
     <p class = " parastyle">Hey I'm Suchitra,My passion for building and my attention to detail gives me the ability<br>
-      to pay close attention to every pixel to ensure that in any interface I develop is stunning, yet functional.<br>
-      I am a front-end developer I'm self-taught and always growing my skills, learning something new every day.</p>
+                           to pay close attention to every pixel to ensure that in any interface I develop is stunning,<br>
+                           yet functional.I am a front-end developer I'm self-taught and always growing my skills, <br>
+                                                  learning something new every day.</p>
   </div>
 </div>
   <div class = "jumbotron" id = "skillst">
@@ -68,59 +70,67 @@
         <figcaption>HTML5</figcaption>
         </figure>
         <figure>
+          <img src = "images/js.png" class = "imgsz4">
+          <figcaption>javascript</figcaption>
+        </figure>
+        <figure>
        <img src = "images/css3.png" class = "imgsz2"><figcaption>CSS3</figcaption></figure>
         <figure>
-        <img src = "images/jquery.png" class = "imgsz4">
+        <img src = "images/jquery.png" class = "imgsz3">
           <figcaption>jQuery</figcaption>
+        </figure>
+        <figure>
+          <img src = "images/angular.png" class = "imgsz4">
+          <figcaption>Angularjs</figcaption>
         </figure>
         <!--<img src = "javascript.png" class = "imgsz3">-->
         <!--<img src = "angular.png" class = "imgsz5">-->
 
-        <img src = "">
+        <!--<img src = "">-->
       </div>
     </div>
   </div>
   <div class = "mywork" id = "mywrk">
 <h2 class = "text-center">My Work</h2>
     <div class ="horline center-block"></div>
-    <div class="container">
+    <div class="container myworkcontainer">
       <div class = "row">
-        <div class = "imagecontainer" style = " background-color: white">
+        <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3">
           <div class = "informationcontainer" >
             <a href="./websites/dropping-boxes"><img src="images/droping-boxes.png" class = "monty img-thumbnail"></a>
             <span class = "hidetext">Dropping-Boxes</span>
           </div>
         </div>
-
-        <div class = "imagecontainer" style = "background-color: white">
+        <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3 " style = "background-color: white">
           <div class = "informationcontainer" >
             <a href="websites/Scrambled-words"><img src = "images/scrambledwords.png" class = "monty img-thumbnail"></a>
             <span class = "hidetext">Scrambled-words</span>
 
           </div>
         </div>
-        <div class = "imagecontainer" style = " background-color: white">
+        <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = " background-color: white">
           <div class = "informationcontainer" >
             <a href="websites/Dice-roller"><img src="images/dice-roller.png" class = "monty img-thumbnail"></a>
             <span class = "hidetext">Dice-Roller</span>
           </div>
         </div>
-        <div class = "imagecontainer" style = " background-color: white">
+        <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3 " style = " background-color: white">
           <div class = "informationcontainer" >
             <a href="websites/clicky-click"><img src="images/clicky-click.png" class = "monty img-thumbnail"></a>
-            <span class = "hidetext">Dice-Roller</span>
+            <span class = "hidetext">Clicky-click</span>
           </div>
         </div>
+
       </div>
       <div class = "row">
-      <div class = "imagecontainer" style = " background-color: white">
+      <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = " background-color: white">
       <div class = "informationcontainer" >
         <a href="./websites/monty-hall"><img src="images/montyhall.png" class = "monty img-thumbnail"></a>
         <span class = "hidetext">Monty-Hall</span>
       </div>
       </div>
 
-      <div class = "imagecontainer" style = "background-color: white">
+      <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = "background-color: white">
         <div class = "informationcontainer" >
           <a href="./websites/day-tracker"><img src = "images/day_tracker.png" class = "monty img-thumbnail"></a>
           <span class = "hidetext">Day-Tracker</span>
@@ -128,28 +138,34 @@
         </div>
       </div>
 
-      <div class = "imagecontainer" style = " background-color: white">
+      <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = " background-color: white">
         <div class = "informationcontainer" >
           <a href="./websites/random-color"><img src="images/randomcolor.png" class = "monty img-thumbnail"></a>
           <span class = "hidetext">Random-Color</span>
         </div>
       </div>
+        <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = " background-color: white">
+          <div class = "informationcontainer" >
+            <a href="./websites/random-color"><img src="images/angularapp.png" class = "monty img-thumbnail"></a>
+            <span class = "hidetext">Basic Angularapp</span>
+          </div>
+        </div>
       </div>
-      end of the row 1
+      <!--end of the row 1-->
 <div class = "row">
-      <div class = "imagecontainer" style = " background-color: white">
+      <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = " background-color: white">
         <div class = "informationcontainer" >
           <a href="./websites/secreat-message"><img src="images/secreatmessage.png" class = "monty img-thumbnail"></a>
           <span class = "hidetext">Screat-message</span>
         </div>
       </div>
-      <div class = "imagecontainer" style = " background-color: white">
+      <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = " background-color: white">
         <div class = "informationcontainer" >
           <a href="./websites/sushi-jiggler"><img src="images/sushijiggler.png" class = "monty img-thumbnail"></a>
           <span class = "hidetext">Sushi-jigglerr</span>
         </div>
       </div>
-      <div class = "imagecontainer" style = " background-color: white">
+      <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = " background-color: white">
         <div class = "informationcontainer" >
           <a href="websites/mouse-follower"><img src="images/mousefollower.png" class = "monty img-thumbnail"></a>
           <span class = "hidetext">Mouse Follower</span>
@@ -158,19 +174,19 @@
 </div>
       <!--end of the row 2-->
       <div class = "row">
-        <div class = "imagecontainer" style = " background-color: white">
+        <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = " background-color: white">
           <div class = "informationcontainer" >
             <a href="./websites/paint-canvas"><img src="images/paintcanvas.png" class = "monty img-thumbnail"></a>
             <span class = "hidetext">Paint The Canvas</span>
           </div>
         </div>
-        <div class = "imagecontainer" style = " background-color: white">
+        <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = " background-color: white">
           <div class = "informationcontainer" >
             <a href="./websites/rock-paper-scissors"><img src="images/rps.png" class = "monty img-thumbnail"></a>
             <span class = "hidetext">Rock-Paper-Scissors</span>
           </div>
         </div>
-        <div class = "imagecontainer" style = " background-color: white">
+        <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = " background-color: white">
           <div class = "informationcontainer" >
             <a href="./websites/bouncing-ball"><img src="images/bouncingball.png" class = "monty img-thumbnail"></a>
             <span class = "hidetext">Bouncing-Ball</span>
@@ -179,21 +195,21 @@
       </div>
       <!--end of the row 3-->
       <div class = "row">
-        <div class = "imagecontainer" style = " background-color: white">
+        <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = " background-color: white">
           <div class = "informationcontainer" >
             <a href="./websites/building-blocks"><img src="images/building-blocks.png" class = "monty img-thumbnail"></a>
             <span class = "hidetext">Building-Blocks</span>
           </div>
 
       </div>
-        <div class = "imagecontainer" style = " background-color: white">
+        <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = " background-color: white">
           <div class = "informationcontainer" >
             <a href="./websites/random-background"><img src="images/random-background.png" class = "monty img-thumbnail"></a>
             <span class = "hidetext">Random-mini-background-color</span>
           </div>
 
         </div>
-        <div class = "imagecontainer" style = " background-color: white">
+        <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = " background-color: white">
           <div class = "informationcontainer" >
             <a href="./websites/smushing-fireflies"><img src="images/smushing-fireflies.png" class = "monty img-thumbnail"></a>
             <span class = "hidetext">Smushing-fireflies</span>
@@ -201,7 +217,7 @@
 
         </div>
     </div>
-</div>
+</div> <!--end of the container-->
 
     </div>
     </div>
@@ -212,12 +228,12 @@
 <div class="text-center">
   <a href = "https://twitter.com/suchitrakadambi"><i class="fa fa-twitter mysetting" aria-hidden="true"></i></a>
   <a href = "https://github.com/suchitrakadambi"><i class="fa fa-github mysetting" aria-hidden="true"></i></a>
-  <a href = "#"><i class="fa fa-linkedin-square mysetting" aria-hidden="true"></i></a>
+  <a href = "https://www.linkedin.com/in/suchitrakadambi?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin-square mysetting" aria-hidden="true"></i></a>
   <!--<input type = "text" placeholder="Name" class ="input">-->
 </div>
 
   </div>
-
+</div>
 </div>
 </div>
 <script src = "scripts/my.js"></script>

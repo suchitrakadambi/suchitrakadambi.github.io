@@ -1,0 +1,60 @@
+header{
+    font-size: 50px;
+    text-align: center;
+    font-family: SansSerif;
+    color: greenyellow;
+}
+
+footer{
+    font-size: 20px;
+    text-align: center;
+    font-family: SansSerif;
+    color: greenyellow;
+    position: absolute;
+    bottom: 0px;
+    /*border: 1px solid black;*/
+    margin-left: 40%;
+    /*margin-right: 20%;*/
+}
+.myheading{
+    font-family: SansSerif;
+    font-style: oblique;
+    color: springgreen;
+}
+.mycolor{
+    color: springgreen;
+    font-family: SansSerif;
+    font-size: 30px;
+}
+.mycolorlist{
+    color: white;
+    font-family: SansSerif;
+    font-size: 30px;
+}
+.mystyle{
+    color: white;
+}
+.mypara{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Lobster;
+}
+.mybtn{
+    font-size: 20px;
+    background-color: black;
+    color: lightgreen;
+    border-radius: 20px;
+    /*padding: 1px;*/
+    margin: 0 auto;
+}
+.btncontainer{
+   top:0px;
+    margin:0 auto;
+    /*border:1px solid green;*/
+    text-align: end;
+}
+.mybtn:focus{
+    outline: none;
+}

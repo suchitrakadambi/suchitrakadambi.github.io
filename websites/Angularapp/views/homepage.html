@@ -1,0 +1,21 @@
+<div class = "container">
+    <form class="form-horizontal">
+        <div class = "form-group">
+            <label class = "control-label mycolor">Email :</label>
+            <input type = "email" class = "form-control" placeholder="enter youe email" ng-model = "userinfo.email">
+        </div>
+        <div class = "form-group">
+            <label class = "control-label mycolor">password :</label>
+            <input type = "password" class = "form-control" placeholder="enter your password here" ng-model = "userinfo.pwd">
+        </div>
+
+        <button ng-click = "find(userinfo)" class = "btn btn-success">Sign-in</button>
+        <!--<span ng-show ="find" class = "mycolor">-->
+            <!--we found the candidate-->
+        <!--</span>-->
+        <!--<span ng-hide ="!find"  class ="mycolor">-->
+            <!--we did not find the candidate-->
+        <!--</span>-->
+        <a href="#/register"> <button class = "btn btn-success">Register</button></a>
+    </form>
+</div>

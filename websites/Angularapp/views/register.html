@@ -1,0 +1,18 @@
+<div class = "container">
+<form class ="form-horizontal">
+    <div class = "form-group">
+       <label class = "control-label mycolor" for = "firstname">
+        firstName :</label><input type = "text" class = "form-control" placeholder="enter your firstName" ng-model = "userinfo.firstName">
+    </div>
+    <div class = "form-group">
+        <label class = "control-label mycolor" for = "email">  email :</label>
+   <input type = "email" class = "form-control" placeholder="enter youe email" ng-model = "userinfo.email">
+    </div>
+    <div class = "form-group">
+        <label class = "control-label mycolor" for = "pwd">password : </label>
+<input type = "password" class = "form-control" placeholder="enter your password here" ng-model = "userinfo.pwd">
+    </div>
+<!--the user name typed is  : {{userinfo.firstName}}-->
+<button ng-click = "registerUser(userinfo)" class = "btn btn-success">Register</button>
+</form>
+</div>
