@@ -10,14 +10,15 @@ $(document).ready(function () {
         $("html,body").animate({scrollTop: $("#about").offset().top}, 1000);
         return false;
     });
-    $(".letter").click(function (event) {
+    $("ul.navbar-nav>li,.letter").click(function (e) {
         console.log("in the letter section");
-        var target = event.target.id;
+        console.log("the event is"+e);
+        var target = e.target.id;
         $("a").css({backgroundColor: "transparent", color: "white"});
-        console.log(target);
-        if (target === "hme") {
-            target = home;
-        }
+        console.log("the target is"+target);
+        //if (target === "hme") {
+        //    target = home;
+        //}
         if (target === "abt") {
             target = "about";
         }
@@ -45,10 +46,7 @@ $(document).ready(function () {
                 $(".navbar").show();
                 $(".letter").css({color: "white"});
                 $(".navbar").css({background: "black", opacity: 0.9});
-                //$(".navbar").hover(function(){
-                //    console.log("in to the hover function");
-                //   $(this).css({color:"yellow"});
-                //});
+
                 console.log("reached the limit height now display the nav bar");
             }
 
@@ -58,21 +56,15 @@ $(document).ready(function () {
                 $(".navbar").css({background: "transparent"});
 
             }
-            //else{
-            //    $(".navbar").show();
-            //    $(".letter").css({color:"white"});
-            //    $(".navbar").css({background:"transparent"});
-            //}
+
         })
     })();
-    $("#myimage").click(function(event){
-        console.log("enterd in to the my image container");
-        evt = event || window.event;
-        enableClick = document.elementFromPoint(evt.clientX ,evt.clientY);
-
-        $(enableClick).click();
-        //$(enableClick).hover();
+    $(document).on("hover","li",function(){
+        console.log("enterd in to the mouse enter function");
+        $(this).css({color:"orange"})
     });
+
+
 
 
 

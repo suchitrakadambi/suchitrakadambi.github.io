@@ -26,7 +26,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" class="letter home active" id = "hme"><em>HOME</em></a></li>
+        <!--<li><a href="#" class="letter home active" id = "hme"><em>HOME</em></a></li>-->
         <li><a href="#about" class="letter about active" id = "abt"><em>ABOUT</em></a></li>
         <li><a href="#skillst" class="letter skillset active" id = "skil"><em>SKILL SET</em></a></li>
         <li><a href="#mywrk" class="letter mywor active" id = "work"><em>WORKS</em></a></li>
@@ -36,7 +36,7 @@
   </div>
 </nav>
   <div class = "textpos">
-    <h1 class = "text-center spaclass ">SUCCESS  = <span class = "ornge">&#x3A3(SMALL EFFORTS)</span></h1>
+    <h1 class = "text-center spaclass ">SUCCESS <span class="ornge">=</span>  <span class = "ornge"><span class = "spaclass">&#x3A3(</span>SMALL EFFORTS<span class = "spaclass">)</span></span></h1>
     <!--<h1 class = "text-center ">WISH<span class = "spaclass"> IT</span></h1>-->
     <!--<h1 class = "text-center ornge ">  <span class = "spaclass"></span></h1>-->
     <h4 class = "text-center myname">Suchitra kadambi, Front-end Developer</h4>
@@ -54,10 +54,12 @@
   <img src = "images/mypic.jpg" class = "imgsize center-block img-circle">
   </div>
   <div class = "aboutcontent center-block text-center">
-    <p class = " parastyle">Hey I'm Suchitra,My passion for building and my attention to detail gives me the ability<br>
-                           to pay close attention to every pixel to ensure that in any interface I develop is stunning,<br>
-                           yet functional.I am a front-end developer I'm self-taught and always growing my skills, <br>
-                                                  learning something new every day.</p>
+    <div class = "content"> <p class = " parastyle">Hey I'm Suchitra,My passion for building and my attention to detail gives me the ability
+      to pay close attention to every pixel to ensure that in any interface I develop is stunning
+      yet functional.I am a front-end developer I'm self-taught and always growing my skills,
+      learning something new every day.</p>
+    </div>
+
   </div>
 </div>
   <div class = "jumbotron" id = "skillst">
@@ -211,7 +213,7 @@
         <div class = "imagecontainer col-xs-12 col-sm-6 col-md-3" style = " background-color: white">
           <div class = "informationcontainer" >
             <a href="./websites/random-background"><img src="images/random-background.png" class = "monty img-thumbnail"></a>
-            <span class = "hidetext">Random-mini-background-color</span>
+            <span class = "hidetext">Randombackground</span>
           </div>
 
         </div>
@@ -223,6 +225,7 @@
 
         </div>
     </div>
+
 </div> <!--end of the container-->
 
     </div>
@@ -231,13 +234,20 @@
 <div class = "footer" id ="contact">
   <div class="container">
     <h2 class = "contacthead text-center">CONNECT WITH ME</h2>
-<div class="text-center">
+<div class = "inlineval">
   <a href = "https://twitter.com/suchitrakadambi"><i class="fa fa-twitter mysetting" aria-hidden="true"></i></a>
   <a href = "https://github.com/suchitrakadambi"><i class="fa fa-github mysetting" aria-hidden="true"></i></a>
   <a href = "https://www.linkedin.com/in/suchitrakadambi?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin-square mysetting" aria-hidden="true"></i></a>
-  <!--<input type = "text" placeholder="Name" class ="input">-->
 </div>
-
+    <div class = "form">
+    <form  action="https://formspree.io/suchitra.developer@gmail.com" method="post">
+      <input type="text" name="name" placeholder = "Enter your name">
+      <input type="email" name="_replyto" placeholder="Enter your email">
+      <textarea name="message" rows="4" placeholder="Enter your message" required=""></textarea>
+      <input type="submit" class = "formbtn" value="Send">
+      <input type="text" name="_gotcha" style="display:none">
+    </form>
+  </div>
   </div>
 </div>
 </div>
