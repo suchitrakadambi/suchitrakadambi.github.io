@@ -5,7 +5,7 @@ app.controller("homepagectrl",['$scope','$location',function($scope,$location) {
 
     $scope.userinfo = {
         firstName: "",
-        email: " ",
+        email: "",
         pwd: ""
     };
     $scope.arr = users;
