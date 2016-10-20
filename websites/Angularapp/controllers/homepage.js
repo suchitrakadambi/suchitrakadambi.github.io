@@ -20,6 +20,10 @@ app.controller("homepagectrl",['$scope','$location',function($scope,$location) {
         var usermail = uinfo.email;
         var userpwd = uinfo.pwd;
 console.log("the value of the candidate out of for loop" + candidate);
+        if((uinfo.email.length<1)&&(uinfo.pwd.length<1)){
+            console.log("no valid input has given");
+            $location.url('/error');
+        }
         console.log("the username from the sign in is " + usermail);
         console.log("the user password is"+ userpwd);
         for(var i=0;i<$scope.arr.length;i++){
