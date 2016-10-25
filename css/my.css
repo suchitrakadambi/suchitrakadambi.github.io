@@ -37,6 +37,9 @@
     /*border: 1px solid brown;*/
     margin: 5px;
 }
+/*ul,li{*/
+    /*background-color: transparent;*/
+/*}*/
 /*li{*/
     /*border:3px solid yellow;*/
 /*}*/
@@ -53,6 +56,7 @@
     /*border-bottom:  3px  solid brown;*/
     /*margin: 5px;*/
 }
+
 .navbar-nav > li > a:hover {
     border-bottom: 3px solid orangered;
     background: transparent;
@@ -407,6 +411,10 @@ input ,textarea{
 input,textarea,.formbtn :focus{
     outline: none;
 }
+.form input.formbtn:hover{
+    background-color: orangered;
+    border: 3px solid white;
+}
 /* the media queris */
 @media only screen and (min-width : 320px){
     .spaclass{
@@ -436,6 +444,10 @@ input,textarea,.formbtn :focus{
     input,textarea{
         width: 80vW;
     }
+    ul,li{
+        background-color: rgba(0,0,0,0.7);
+    }
+
 }
 @media only screen and (min-width:768px){
    .navbar-brand{
@@ -475,6 +487,9 @@ input,textarea,.formbtn :focus{
         font-size: 20px;
         border: 2px solid orangered;
     }
+    ul,li{
+        background-color: transparent;
+    }
 }
 
 @media only screen and (min-width : 992px) {
@@ -504,5 +519,8 @@ input,textarea,.formbtn :focus{
         font-family: Lobster;
         font-size: 20px;
         border: 2px solid orangered;
+    }
+    ul,li{
+        background-color: transparent;
     }
 }

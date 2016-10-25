@@ -2,7 +2,7 @@
  * Created by skadambi on 9/7/16.
  */
 app.controller("homepagectrl",['$scope','$location',function($scope,$location) {
-
+var myresult ;
     $scope.userinfo = {
         firstName: "",
         email: "",
@@ -34,7 +34,8 @@ console.log("the value of the candidate out of for loop" + candidate);
                 console.log("the users first name is" + $scope.userinfo.firstName);
                 candidate=true;
                 console.log("the value of the candidate innnnn for loop" + candidate);
-                console.log(JSON.stringify($scope.userinfo));
+                myresult = JSON.stringify($scope.userinfo);
+                console.log("the result is" +myresult);
                 $location.url('/welcome');
                 return true;
             }
