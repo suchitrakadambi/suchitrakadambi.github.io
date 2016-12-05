@@ -1,0 +1,68 @@
+.inputclass{
+    text-align: justify;
+    left:50%;
+    top:50%;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    /*border: 1px solid black;*/
+    width: 500px;
+    height: 700px;
+    font-family: SansSerif;
+    color: saddlebrown;
+}
+.headingclass{
+    text-align: center;
+    left:50%;
+    top:5%;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    /*border: 1px solid black;*/
+    width: 900px;
+}
+.textclass{
+    position: fixed;
+    /*top:20%;*/
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width: 900px;
+}
+.buttonclass{
+    position: fixed;
+    /*top:20%;*/
+    left:50%;
+    bottom:10%;
+    transform: translate(-50%,-50%);
+    height: 50px;
+    font-family: SansSerif;
+    background-color:saddlebrown;
+    color: white;
+    font-size: 20px;
+}
+.buttonclass:focus{
+    outline: 0;
+}
+#teliprompt{
+    color: white;
+    font-family: SansSerif;
+    font-size: 70px;
+    line-height: 2;
+    /*min-height: 1px;*/
+    /*border:  1px solid black;*/
+    position: absolute;
+    /*bottom:50px;*/
+    animation-name: moveup;
+    animation-timing-function: linear;
+    /*animation-duration: 60s;*/
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+.movetext{
+    position: relative;
+    -webkit-animation: moving ;
+    animation :moving ;
+    /*animation-timing-function: linear;*/
+    -webkit-animation-fill-mode: forwards;
+}
