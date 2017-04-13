@@ -1,0 +1,189 @@
+$font-stack:Helvetica, sans-serif;
+$primary-color: white;
+$opacitybackground :0.99;
+$devicewidth :100vw;
+$deviceheight:100vh;
+$postionabsolute :absolute;
+$boxsize:border-box;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+}
+.instruction {
+    background:black;
+    opacity:$opacitybackground;
+    z-index: 1000;
+    position: $postionabsolute;
+    //top:50%;
+    padding-top: 10%;
+    padding-left: 25%;
+    height: $deviceheight;
+    width:$devicewidth;
+    box-sizing:$boxsize;
+
+}
+.mainpage{
+    background: white;
+    width:$devicewidth;
+    height: $deviceheight;
+    //background: $opacitybackground;
+    //z-index: 100;
+    position:$postionabsolute;
+    //top:50%;
+    //left: 55%;
+    color:black;
+    box-sizing:$boxsize;
+}
+button{
+    height: 50px;
+    width: 150px;
+    border-radius:10%;
+    background: yellow;
+    color:black;
+    font-size: 15px;
+    position: $postionabsolute;
+    left:45%;
+}
+button:focus{
+    outline: none;
+}
+.throbes{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    position: $postionabsolute;
+    //position: relative;
+    border:5px solid gainsboro;
+    //border-top-left-radius:20px;
+    //border-top-right-radius:20px;
+    border-top: 5px solid red;
+    //background: green;
+    //border-top-;
+    animation: spin 1s linear infinite;
+
+}
+.throbestwo{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    position: $postionabsolute;
+    //position: relative;
+    border:1px solid black;
+    border-top: 5px solid darkblue;
+    //background: green;
+    //border-top-;
+    animation: spin 1s linear infinite;
+
+}
+.threedotsTwoo{
+    width: 50px;
+    height: 50px;
+    background: magenta;
+    position: $postionabsolute;
+    border-radius: 50%;
+    //animation: threedots 1s linear infinite;
+}
+.theedotsanimation1{
+animation: animationone 1s linear infinite;
+}
+.theedotsanimation2{
+    animation: animationTwo 1.2s linear infinite;
+    //animation-delay: 1s;
+}
+.theedotsanimation3{
+    animation: animationThree 1.4s linear infinite;
+}
+
+@keyframes animationone {
+    0%,100%{
+        width:5px; height: 5px;
+    }
+    50%{
+        width:10px; height: 10px;
+    }
+}
+@keyframes animationTwo {
+    0%,100%{
+        width:5px; height: 5px;
+    }
+    50%{
+        width:10px; height: 10px;
+    }
+}
+@keyframes animationThree {
+    0%,100%{
+        width:5px; height: 5px;
+    }
+    50%{
+        width:10px; height: 10px;
+    }
+}
+
+@keyframes threedots {
+   0%{
+     width:10px; height: 10px;
+   }
+    100%{
+        width:50px; height: 50px;
+    }
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+
+}
+// bars
+.barone{
+    width:10px;
+    height: 50px;
+    position: $postionabsolute;
+    background: green;
+
+    animation:baronenaimation 1s  linear infinite;
+
+}
+@keyframes baronenaimation {
+    //0%,100%{
+    //    height: 20px;
+    //}
+    //50%{
+    //    height: 100px;
+    //}
+    0%,100%{
+      transform: scale(1,0.1);
+    }
+50%{
+    transform: scale(1,1);
+}
+}
+.bartwo{
+    @extend .barone;
+    animation:bartwonaimation 1.11s  linear infinite;
+}
+@keyframes bartwonaimation {
+    0%, 100% {
+        //height: 20px;
+        transform: scale(1,0.1);
+    }
+    50% {
+        //height: 100px;
+        transform: scale(1,1);
+    }
+}
+
+.barthree{
+    @extend .barone;
+    animation:barthreenaimation 1.21s  linear infinite;
+}
+@keyframes barthreenaimation {
+    0%, 100% {
+        //height: 20px;
+        transform: scale(1,0.1);
+    }
+    50% {
+        //height: 100px;
+        transform: scale(1,1);
+
+    }
+}

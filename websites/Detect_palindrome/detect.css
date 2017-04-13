@@ -1,0 +1,57 @@
+h1{
+    color:yellow;
+}
+h3{
+    color: plum;
+}
+.mainarea{
+    /*border:1px solid black;*/
+    width:500px;
+    height:500px;
+    margin: 0 auto;
+}
+.inputcontent{
+    width:500px;
+    height:200px;
+    border:1px solid gray;
+    border-radius: 5px;
+}
+.inputcontent:focus{
+    outline: none;
+}
+#resultarea{
+visibility: hidden;
+  width:500px;
+  color: white;
+  text-align: justify;
+  font-size: 20px;
+  background: black
+}
+ span{
+    background-color:#FF9;
+    color:#555;
+}
+body{
+    background-color:darkblue;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius:50px;
+    background-color: yellow;
+    font-size: 18px;
+    border: none
+}
+button:focus{
+    outline: none;
+}
+.examplecontent p{
+    border:1px solid black;
+    color:white;
+    background: blueviolet;
+    font-size:20px;
+}
+#resultbtn{
+display:none;
+margin: 50px;
+}
